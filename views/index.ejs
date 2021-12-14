@@ -17,7 +17,18 @@
         </form>
 
         <div class="wish-container">
+            <ul>
+                <% for (let i = 0; i < myWishes.length; i++) {%>
+                    <li><%= myWishes[i].description %>
+                    <form action="/deleteWish" method="POST" style = "display: inline-block;">
+                        <input type="hidden" name= "wishToDelete" value="<%= myWishes[i].description %>">
+                        <button type="submit">X</button>
+                    </form>
+                    
+                    </li>
 
+                <%}%>
+            </ul>
         </div>
     </div>
 

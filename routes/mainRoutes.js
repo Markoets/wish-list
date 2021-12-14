@@ -9,6 +9,7 @@ router.get('/getdate',mainController.getDate);
 router.get('/weekday',mainController.getWeekday);
 
 router.post ('/', mainController.postWish);
+router.post('/deleteWish',mainController.deleteWish);
 
 
 
