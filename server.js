@@ -6,6 +6,7 @@ const app = express();
 app.set('view engine','ejs'); 
 app.use(express.urlencoded({extended:true}))  //get data from request body
 app.use(express.static('public'));
+app.use(express.static('images'));
 
 app.use(mainRoutes);
 app.use(errorRoute);

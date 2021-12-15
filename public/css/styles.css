@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    line-height: 1.7;
+}
+
+
+.wish-container{
+    background-color: rgb(12, 214, 79);
+    text-align: center;
+  }
+
+
+
+  li{
+        border:5px solid green;
+      
+  }
+
+
+.container{
+    background-color: brown;
+    border:5px solid brown;
+}
+
+
+.body{
+    background-color:black;
+    border: 5px dotted white ;
+    border-radius: 1000px;
+}
+
+
+
+.pictureDiv{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    
+    transform: translate(-50%,0);
+
+  }
+
+  .button:hover {opacity: 1}
+
+
+  .lehitse{
+      font-size: 20px;
+  }
+
+
+  .btn{
+      background: brown;
+  }
+
+
+  footer{
+    text-align: center;
+    padding: 2rem;
+    color: rgb(252, 175, 188);
+    margin-right: 1rem;
+}

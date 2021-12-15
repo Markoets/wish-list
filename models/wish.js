@@ -3,8 +3,9 @@ const path = require ('path');
 const filePath = path.join(path.dirname(require.main.filename), 'data','wishes.json');
 
 module.exports = class Wish {
-    constructor(wish){
+    constructor(wish,imageUrl){
         this.description= wish;
+        this.imageUrl = imageUrl;
     }
 
 
